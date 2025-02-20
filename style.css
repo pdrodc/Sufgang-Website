@@ -89,7 +89,14 @@ footer{
     left: 4rem;
     font-size: 19px;
     text-decoration: none;
+    cursor: pointer;
+    transition: .6s ease;
 }
+
+.social-icons i:hover{
+    color: #000;
+}
+
 .footer-links {
     display: flex;
     gap: 20px;
@@ -104,7 +111,7 @@ footer{
     font-size: 11px;
     position: relative;
     top: -2.2rem;
-    transition: .5s ease;
+    transition: .6s ease;
 }
 
 .footer-links a:hover{
